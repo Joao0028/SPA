@@ -1,0 +1,40 @@
+@import '../abstract/variaveis';
+
+.cupom{
+    background-color: $corTerciaria;
+    padding: 4rem;
+    text-align: center;
+    
+    h2{
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .input input{
+        border-radius: 20px;
+        border: 1px solid $corSecundaria;
+        text-align: center;
+        padding: 1em;
+        margin: 0 0 10px 0;
+        width: 388px;
+        color: #f39e0a;
+        cursor: pointer;
+    }
+
+
+    input:hover,:focus{
+        outline: none;
+    }
+
+    button{
+        padding: 1em 3em;
+        color: white;
+        background-color:$corPrimaria;
+        border: none;
+        border-radius: 4px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}

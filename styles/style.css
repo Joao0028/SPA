@@ -1,0 +1,166 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #495371;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #495371;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  color: white;
+  padding: 3rem;
+  text-align: center;
+  background-color: #f1e0ac;
+  opacity: 0.9;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  font-weight: 200;
+}
+.banner .inner-banner h2 {
+  color: #74959a;
+  font-weight: 300;
+}
+
+.servicos {
+  margin: 80px;
+}
+.servicos h4 {
+  font-size: 20px;
+  color: #495371;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  margin: 10px;
+}
+.servicos h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #74959a;
+  text-transform: uppercase;
+}
+.servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.servicos .cards h5 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px 0 15px;
+  color: #f39e0a;
+}
+.servicos .cards p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #495371;
+  line-height: 1.25rem;
+}
+.servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+.servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 3px solid #74959a;
+}
+.servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+.cupom {
+  background-color: #f1e0ac;
+  padding: 4rem;
+  text-align: center;
+}
+.cupom h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.cupom .input input {
+  border-radius: 20px;
+  border: 1px solid #74959a;
+  text-align: center;
+  padding: 1em;
+  margin: 0 0 10px 0;
+  width: 388px;
+  color: #f39e0a;
+  cursor: pointer;
+}
+.cupom input:hover, .cupom :focus {
+  outline: none;
+}
+.cupom button {
+  padding: 1em 3em;
+  color: white;
+  background-color: #495371;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  margin: 1em 0 0;
+  padding: 1em 0;
+  border-top: 1px solid #74959a;
+  background: #f1e0ac;
+  color: white;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+}
+.final img {
+  width: 100%;
+  border: 1px solid #f1e0ac;
+}
+.final p, .final h3, .final h4 {
+  text-align: center;
+}
+.final h3 {
+  color: #74959a;
+  font-size: 20px;
+  padding: 1em 0;
+  font-weight: 300;
+}
+.final h4 {
+  font-size: 18px;
+  color: #495371;
+  font-weight: 300;
+}
+.final p {
+  color: #495371;
+  padding: 1em 0 0 0;
+  font-weight: 300;
+}/*# sourceMappingURL=style.css.map */

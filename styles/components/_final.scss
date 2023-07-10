@@ -1,0 +1,33 @@
+@import '../abstract/variaveis';
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    img{
+        width: 100%;
+        border: 1px solid $corTerciaria;
+    }
+
+    p,h3,h4{
+        text-align: center;
+    }
+
+    h3{
+        color: $corSecundaria;
+        font-size: 20px;
+        padding: 1em 0;
+        font-weight: 300;
+    }
+    h4{
+        font-size: 18px;
+        color: $corPrimaria;
+        font-weight: 300;
+    }
+    p{
+        color: $corPrimaria;
+        padding: 1em 0 0 0;
+        font-weight: 300;
+    }
+}

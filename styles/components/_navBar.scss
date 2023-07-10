@@ -1,0 +1,20 @@
+@import '../abstract/variaveis.scss';
+
+nav{
+    text-align: center;
+    ul{
+        li{
+            display: inline-block;
+            padding: 1em;
+            a{
+                text-decoration: none;
+                color: $corPrimaria;
+                text-transform: uppercase;
+                font-weight: 300;
+                &:hover{
+                    border-bottom: 2px solid $corPrimaria;
+                }
+            }
+        }
+    }
+}
